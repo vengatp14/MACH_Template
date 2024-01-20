@@ -1,0 +1,29 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* global  */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family :Inter, Helvetica, sans-serif;
+}
+
+/* hero bg img  */
+.background_img{
+    background-image:url("../imgs/header-bg.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+/* menu active  */
+.nav-link.active {
+    background-color: #ffffff15;
+    border-radius: 5px;
+}
+
+.hero_position{
+    position: relative;
+    top: -150px;
+}
