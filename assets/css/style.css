@@ -6,6 +6,11 @@
     margin: 0px;
     padding: 0px;
     font-family :Inter, Helvetica, sans-serif;
+    color: #252f4a;
+}
+/* side nav  */
+.rounded_side_nav{
+    border-radius: 50px;
 }
 
 /* hero bg img  */
@@ -26,4 +31,43 @@
 .hero_position{
     position: relative;
     top: -150px;
+}
+
+/* table text positions and styles */
+.cell_table{
+    padding-top: 17px !important;
+    
+}
+.font_size, .cell_table{
+    font-size: 14px;
+}
+.text_style_TH{
+    color: #99A1b7 !important;
+    font-size: 12.35px;
+    font-weight: 600;
+}
+
+/* badge custom  */
+.text-bg-primary {
+    background-color: #1b85ff28 !important;
+    color: #1b84ff !important;
+}
+
+.text-bg-danger {
+    background-color: #f8285937 !important;
+    color: #f8285a !important;
+}
+
+.action_btn_css{
+    font-size: 12.35px!important;
+font-weight: 600!important;
+color: var(--bs-light-inverse);
+border-color: var(--bs-light);
+background-color: var(--bs-light);
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: var(--bs-btn-active-color);
+    background-color: var(--bs-btn-active-bg);
+    border-color: transparent;
 }
