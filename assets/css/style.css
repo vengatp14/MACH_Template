@@ -71,3 +71,50 @@ background-color: var(--bs-light);
     background-color: var(--bs-btn-active-bg);
     border-color: transparent;
 }
+
+/* form  */
+.data_head .head_style{
+font-size:1.1rem !important;
+font-weight: 600;
+}
+
+.form-select.form-control-solid {
+    background-color: var(--bs-gray-100);
+    border-color: var(--bs-gray-100);
+    color: var(--bs-gray-700);
+    transition: color .2s ease;
+}
+.form-label {
+    color: var(--bs-gray-800) !important;
+}
+
+.form-input_text {
+    padding: 0.775rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.link_style{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.form-check-input {
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+.check_text_color{
+    color: var(--bs-gray-500);
+    font-size: 15px;
+    font-weight: 500;
+}
+.border_dashed{
+    border: 1px dashed #3470fd;
+    font-size: 1.35rem;
+    background-color:#3470fd11 ;
+}
+.text_css_upload{
+    font-size: 16px;
+}
