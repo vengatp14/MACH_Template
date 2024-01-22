@@ -118,3 +118,6 @@ font-weight: 600;
 .text_css_upload{
     font-size: 16px;
 }
+.text-area-height{
+    height: 210px !important;
+}
