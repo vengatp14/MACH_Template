@@ -20,10 +20,7 @@
     width: 50px;
     margin-right: 10px;
 }
-.col-lg-11_width {
-    flex: 0 0 auto;
-    width: 94.666667%;
-}
+
 .offcanvas_width{
     width: 120px !important;
 }
@@ -46,7 +43,12 @@
 @media (min-width: 1400px){
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 1405px;
-}}
+}
+.col-lg-11_width {
+    flex: 0 0 auto;
+    width: 94.666667%;
+}
+}
 
 /* hero bg img  */
 .background_img{
