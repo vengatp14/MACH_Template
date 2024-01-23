@@ -12,9 +12,17 @@
 /* side nav  */
 .rounded_side_nav{
     border-radius: 50px;
-    width: 75px;
+    width: 50px;
     height:450px;
     position: fixed;
+}
+.width_col-1{
+    width: 50px;
+    margin-right: 10px;
+}
+.col-lg-11_width {
+    flex: 0 0 auto;
+    width: 94.666667%;
 }
 .offcanvas_width{
     width: 120px !important;
@@ -118,7 +126,7 @@ background-color: var(--bs-light);
 
 /* form  */
 .data_head .head_style{
-font-size:1.1rem !important;
+font-size:1rem !important;
 font-weight: 600;
 }
 
@@ -180,8 +188,11 @@ font-weight: 600;
 }
 
 .form-label_css{
-        font-size: 1.05rem;
+        font-size: 13px;
         font-weight: 500;
         color:#252f4a;
       
+}.font_lable{
+    font-size: 1rem!important;
+    font-weight: 500!important;
 }
