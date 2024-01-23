@@ -16,63 +16,65 @@
   <link rel="stylesheet" href="./assets/vendor/icons-1.11.3/font/bootstrap-icons.min.css">
 </head>
 
-<body>
+<body class="bg-light">
   <div class="container-fluid">
     <div class="row">
       <!-- nav bar start -->
       <div class="col-lg-12 background_img">
-        <nav class="navbar  navbar-expand-lg fixed-top bg-transparent py-4 border-bottom btn-secondary ">
+        <nav id="colorChangingDiv" class="navbar fixed-top   navbar-expand-lg  py-4 border-bottom btn-secondary ">
           <div class="container d-none d-lg-block d-xl-block w-100">
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-              aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
-                <li> <a class="navbar-brand nav-link text-white" href="#">Logo</a></li>
-                <li class="nav-item">
-                  <a class="nav-link active text-white" aria-current="page" href="#">Dashboard</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#">Pages</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white">App</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white">Help</a>
-                </li>
-              </ul>
-              <div class="d-flex justify-content-end w-100" role="search">
-                <button class="btn bg-transparent" type="submit"><i class="bi bi-search text-white"></i></button>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                      <li> <a  class="navbar-brand nav-link text-white"  href="#">Logo</a></li>
+                      <li class="nav-item" >
+                          <a   class="nav-link active text-white" aria-current="page" href="#">Dashboard</a>
+                      </li>
+                      <li class="nav-item">
+                          <a   class="nav-link text-white" href="#">Pages</a>
+                      </li>
+                      <li class="nav-item">
+                          <a   class="nav-link text-white">App</a>
+                      </li>
+                      <li class="nav-item">
+                          <a  class="nav-link text-white">Help</a>
+                      </li>
+                  </ul>
+                  <div class="d-flex justify-content-end w-100" role="search">
+                      <button class="btn bg-transparent" type="submit"><i
+                              class="bi bi-search text-white "></i></button>
+                  </div>
               </div>
-            </div>
           </div>
 
           <!-- mobile nav start  -->
           <nav class="navbar navbar-light bg-transparent width_nav">
-            <div class="container d-block d-lg-none d-xl-none ">
-              <div class="d-flex justify-content-between ">
-                <div>
-                  <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
-                    aria-controls="offcanvasExample">
-                    <i class="bi bi-menu-button-wide d-block text-white "></i>
-                  </button>
-                  <a class="navbar-brand text-white" href="#">Logo</a>
-                </div>
+              <div class="container d-block d-lg-none d-xl-none ">
+                  <div class="d-flex justify-content-between ">
+                      <div>
+                          <button class="menu btn " type="button" data-bs-toggle="offcanvas"
+                              data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                              <i class="bi bi-menu-button-wide d-block text-white "></i>
+                          </button>
+                          <a class="navbar-brand text-white" href="#">Logo</a>
+                      </div>
 
-                <div class="text-end">
-                  <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExamplemenu"
-                    aria-controls="offcanvasExample">
-                    <i class="bi bi-menu-button-wide d-block text-white "></i>
-                  </button>
-                </div>
+                      <div class="text-end">
+                          <button class="menu btn " type="button" data-bs-toggle="offcanvas"
+                              data-bs-target="#offcanvasExamplemenu" aria-controls="offcanvasExample">
+                              <i class="bi bi-menu-button-wide d-block text-white "></i>
+                          </button>
+                      </div>
+                  </div>
               </div>
-            </div>
           </nav>
           <!-- mobile nav end  -->
-        </nav>
+      </nav>
       </div>
       <!-- nav bar end -->
     </div>
@@ -96,7 +98,7 @@
 
       <div class="col-lg-11  col-lg-11_width">
         <div class="container-fluid">
-          <div class="row bg-light rounded-3 pt-3">
+          <div class="row bg-white shadow-sm rounded-3 pt-3">
 
             <!-- card start  -->
             <div class="col-lg-3">
@@ -208,37 +210,48 @@
              
               <!-- table header menu start  -->
               <div class="d-flex justify-content-between flex-column flex-lg-row">
-                <div class="d-flex">
-                  <div>
-                    <span class="btn action_btn_css">Location</span>
-                  </div>
-                  <div>
-                    <div class="dropdown">
-                      <button class="btn action_btn_css dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Action
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
+                <div class="d-flex flex-column flex-lg-row">
+                  <div class="d-flex">
+                    <div>
+                      <span class="btn action_btn_css">Location</span>
+                    </div>
+                    <div>
+                      <div class="dropdown">
+                        <button class="btn action_btn_css dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                          Action
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div>
+                      <span class="btn action_btn_css">Location</span>
+                    </div>
+                    <div>
+                      <div class="dropdown">
+                        <button class="btn action_btn_css dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                          Action
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                      
                     </div>
                   </div>
-                  <div>
-                    <span class="btn action_btn_css">Location</span>
-                  </div>
-                  <div>
-                    <div class="dropdown">
-                      <button class="btn action_btn_css dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Action
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
+                  <div class="d-flex ">
+                    <div class="ms-3">
+                      <div class="input-group mb-3 w-75" >
+                        <span class="input-group-text btn border" id="basic-addon1"><i class="bi bi-search"></i></span>
+                        <input type="text" class="form-control form-control-solid border" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -446,8 +459,12 @@
   </div>
   <!-- off canva menu two end -->
 
+
+   <!-- coustom js  -->
+   <script src="./assets/js/main.js"></script>
   <!-- boostrap js  -->
   <script src="./assets/vendor/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+  
 </body>
 
 </html>
