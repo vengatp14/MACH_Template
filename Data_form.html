@@ -217,9 +217,9 @@
                                                     <option value="3">Three</option>
                                                 </select>
                                             </div>
-                                            <div class="col-lg-3 d-flex  align-items-end">
+                                            <div class="col-lg-3 d-flex my-3 my-lg-0  align-items-end">
                                                 <div>
-                                                    <a class="d-block link_style pb-2" href="http://"><i class="bi bi-filetype-pdf text-primary"></i> m2.jpg</a>
+                                                    <a class="d-block link_style pb-2" href="http://"><i class="bi bi-file-image"></i> m2.jpg</a>
                                                     <a class="d-block link_style" href="http://"><i class="bi bi-filetype-pdf text-primary"></i>  Sample Pdf.pdf</a>
                                                 </div>
                                             </div>
@@ -233,7 +233,7 @@
                                                                 id="flexCheckDefault">
                                                             <label class="form-check-label mt-2 ms-2 check_text_color"
                                                                 for="flexCheckDefault">
-                                                                Add pass on note
+                                                                Add to pass on notes
                                                             </label>
                                                         </div>
                                                     </div>
@@ -244,14 +244,24 @@
                                                                 id="flexCheckDefault">
                                                             <label class="form-check-label mt-2 ms-2 check_text_color"
                                                                 for="flexCheckDefault">
-                                                                Send recommendations
+                                                                Send Recommendation
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value=""
+                                                                id="flexCheckDefault">
+                                                            <label class="form-check-label mt-2 ms-2 check_text_color"
+                                                                for="flexCheckDefault">
+                                                               Add to Status Board
                                                             </label>
                                                         </div>
                                                     </div>
                                                 </div>
             
                                             </div>
-                                            <div class="col-lg-3 d-flex  align-items-end">
+                                            <div class="col-lg-3 d-flex  align-items-start">
             
                                                 <div class="row">
                                                     <div class="col-lg-12">
@@ -260,7 +270,7 @@
                                                                 id="flexCheckDefault">
                                                             <label class="form-check-label mt-2 ms-2 check_text_color"
                                                                 for="flexCheckDefault">
-                                                                Add recommendation
+                                                                Notify Manager
                                                             </label>
                                                         </div>
                                                     </div>
@@ -271,10 +281,12 @@
                                                                 id="flexCheckDefault">
                                                             <label class="form-check-label mt-2 ms-2 check_text_color"
                                                                 for="flexCheckDefault">
-                                                                Send mass mail (word sprint)
+                                                                Word Sprint (Mass mail comm)
                                                             </label>
                                                         </div>
                                                     </div>
+
+                                                    
                                                 </div>
             
             
@@ -295,8 +307,12 @@
                                                 <div class="col-lg-4">
                                                     
 
-                                                    <div class="custom-file mt-3">
-                                                        <input type="file" class="form-control form-control-solid form-input_text" >
+                                                    <div class="custom-file mt-3 position-relative" >
+                                                        <input type="text" class="form-control border form-control-solid form-input_text" placeholder="Select File To Upload">
+                                                        <div class="position-absolute top-50 end-0 translate-middle-y">
+                                                            <button class="me-2 btn bg-white"> Choose Files</button>
+                                                        </div>
+                                                        
                                                       </div>
 
                                                       <table class="table table-bordered shadow-sm  mt-3">
