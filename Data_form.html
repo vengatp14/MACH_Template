@@ -293,52 +293,35 @@
                                                 </div>
                                                 <!-- drag and drop start -->
                                                 <div class="col-lg-4">
-                                                    <div class=" d-flex bg-light-primary rounded border_dashed p-4 mt-3">
-                                                        <i class="bi bi-file-earmark-arrow-up-fill"></i>
-            
-                                                        <!--begin::Wrapper-->
-                                                        <div class="d-flex ms-3">
-                                                            <!--begin::Content-->
-                                                            <div class=" fw-semibold">
-                                                                <h6 class="text-gray-900 fw-bold mt-1"> Drop files here or click to
-                                                                    upload
-                                                                </h6>
-            
-                                                                <small class="text-muted text_css_upload">Upload up to 10
-                                                                    files</small>
-                                                            </div>
-                                                            <!--end::Content-->
-            
-                                                        </div>
-                                                        <!--end::Wrapper-->
-                                                    </div>
-                                                    <!-- drag and drop end -->
-            
-                                                    <!-- map location start  -->
-                                                    <div class="row">
-                                                        <div class="col-lg-12">
-                                                            <div class=" d-flex bg-light-primary rounded border_dashed p-4 mt-3">
-                                                                <i class="bi bi-geo-alt-fill"></i>
-            
-                                                                <!--begin::Wrapper-->
-                                                                <div class="d-flex ms-3">
-                                                                    <!--begin::Content-->
-                                                                    <div class=" fw-semibold">
-                                                                        <h6 class="text-gray-900 mt-1 fw-bold"> Drop or draw
-                                                                            location on map
-                                                                        </h6>
-            
-                                                                        <!-- <small class="text-muted text_css_upload">Upload up to 10
-                                                                            files</small> -->
-                                                                    </div>
-                                                                    <!--end::Content-->
-            
-                                                                </div>
-                                                                <!--end::Wrapper-->
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- map location end  -->
+                                                    
+
+                                                    <div class="custom-file mt-3">
+                                                        <input type="file" class="form-control form-control-solid form-input_text" >
+                                                      </div>
+
+                                                      <table class="table table-bordered shadow-sm  mt-3">
+                                                        <thead>
+                                                          <tr>
+                                                            <th scope="col" class="text-center text-muted text_style_TH">Name</th>
+                                                            <th scope="col" class="text-center text-muted text_style_TH">File</th>
+                                                            <th scope="col" class="text-center "><button class="btn btn-sm btn-danger"><i class="bi bi-x-lg"></i></button></th>
+                                                          </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                          <tr>
+                                                            <td scope="row" class="text-center pt-4  small text-muted fw-bold">m2.jpg</td>
+                                                            <td class="text-center"><img src="./assets/imgs/300-1.jpg" height="60px" class="rounded-3" alt=""></td>
+                                                            <td class="text-center pt-4 small text-muted fw-bold"><i class="bi bi-x-lg text-danger"></i></td>
+                                                          </tr>
+                                                        </tbody>
+                                                      </table>
+
+                                                      <div class="d-flex">
+                                                        <button class=" btn btn-light btn-sm"><i class="bi bi-globe-americas"></i> Select Map Location </button>
+                                                        <span class=" mt-1 ms-1"> 2 location(s) marked!</span>
+                                                      </div>
+
+
                                                 </div>
                                             </div>
                                         </div>
@@ -415,7 +398,7 @@
                                            </div>
                                         </div>
             
-                                      
+                                      <button class="btn btn-sm btn-outline-primary mb-3">+ Add Hazard</button>
             
                                     </div>
                                     <div class="col-lg-4">
@@ -482,7 +465,7 @@
                                             </div>
                                            </div>
                                         </div>
-                                      
+                                        <button class="btn btn-sm btn-outline-danger mb-3">+ Attach Notam</button>
             
                                     </div>
                                     <div class="col-lg-4">
