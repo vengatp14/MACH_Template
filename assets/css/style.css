@@ -10,8 +10,6 @@
 
 }
 
-
-
 /* side nav  */
 .rounded_side_nav{
     border-radius: 50px;
@@ -173,6 +171,18 @@ font-weight: 600;
     font-size: 15px;
     font-weight: 500;
 }
+@media screen and (min-width:900px)  {
+    .check_text_color{
+        color: var(--bs-gray-500);
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .form-label_css{
+        font-size: 12px !important;
+        width: 130px !important;
+      
+}
+}
 .border_dashed{
     border: 1px dashed #3470fd;
     font-size: 1.35rem;
@@ -193,14 +203,18 @@ font-weight: 600;
 }
 
 .form-label_css{
-        font-size: 13px;
+        font-size: 15px;
         font-weight: 500;
         color:#252f4a;
+        width: 230px;
+        margin-top: 3px;
       
-}.font_lable{
+}
+.font_lable{
     font-size: 1rem!important;
     font-weight: 500!important;
 }
+
 
 /* nav and tab button  */
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -208,4 +222,14 @@ font-weight: 600;
     background-color: transparent;
     border-bottom: 3px solid var(--bs-nav-pills-link-active-bg) ;
     border-radius: 0px;
+}
+
+.head_style_radio{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.nav-pills .nav-link {
+    border-radius: var(--bs-nav-pills-border-radius);
+    color: gray;
 }
