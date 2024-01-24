@@ -41,15 +41,16 @@
 }
 
 /* container boostrap over wright  */
-@media (min-width: 1400px){
+@media (min-width: 1200px){
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    max-width: 1405px;
+    max-width: 1261px;
 }
 .col-lg-11_width {
     flex: 0 0 auto;
     width: 94.666667%;
 }
 }
+
 
 /* hero bg img  */
 .background_img{
@@ -179,7 +180,7 @@ font-weight: 600;
     }
     .form-label_css{
         font-size: 12px !important;
-        width: 130px !important;
+        width: 150px !important;
       
 }
 }
