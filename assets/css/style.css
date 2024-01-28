@@ -1,11 +1,14 @@
-/* font */
+/* font 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*/
+@import url('https://fonts.googleapis.com/css?family=Titillium Web');
+/* global  Urbanist*/
 
 /* global  */
 *{
     margin: 0px;
     padding: 0px;
-    font-family :Inter, Helvetica, sans-serif;
+    font-family :Titillium Web, Helvetica, sans-serif;
     /* color: #252f4a; */
 }
 
@@ -166,19 +169,19 @@ font-weight: 600;
     height: 1.75rem;
 }
 
-.check_text_color{
-    color: var(--bs-gray-500);
+/* .check_text_color{
+color: var(--bs-gray-500);
     font-size: 15px;
     font-weight: 500;
-}
+} */
 @media screen and (min-width:900px)  {
-    .check_text_color{
-        color: var(--bs-gray-500);
+    /* .check_text_color{
+    color: var(--bs-gray-500);
         font-size: 13px;
         font-weight: 500;
-    }
+    } */
     .form-label_css{
-        font-size: 12px !important;
+        font-size: 13px !important;
         width: 150px !important;
       
 }
@@ -212,7 +215,7 @@ font-weight: 600;
 }
 .font_lable{
     font-size: 1rem!important;
-    font-weight: 500!important;
+    font-weight: 900!important;
 }
 
 
