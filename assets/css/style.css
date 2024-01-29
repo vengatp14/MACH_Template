@@ -236,3 +236,22 @@ color: var(--bs-gray-500);
     border-radius: var(--bs-nav-pills-border-radius);
     color: gray;
 }
+/* login page  */
+.bg-img{
+    background-image:url("../imgs/map.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.line_text:after,
+.line_text:before{
+content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+text-decoration:line-through;
+}
+
+@media (min-width: 1200px){
+    .w-50_css{
+        width: 50%;
+    }
+    }
