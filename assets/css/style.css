@@ -41,6 +41,11 @@
         width: 100% !important;
     }
 }
+/* nav bar  */
+.bg-col{
+    background-color: #0081b5 !important;
+    /* margin-bottom: 100px !important; */
+}
 
 /* container boostrap over wright  */
 @media (min-width: 1200px){
@@ -254,4 +259,7 @@ text-decoration:line-through;
     .w-50_css{
         width: 50%;
     }
+    }
+    .login_sec_start{
+        margin-top: 100px !important;
     }
