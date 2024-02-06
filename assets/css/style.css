@@ -76,7 +76,7 @@
 
 .hero_position{
     position: relative;
-    top: -150px;
+    top: -180px;
 }
 
 /* table text positions and styles */
@@ -304,4 +304,7 @@ text-decoration:line-through;
 	border-radius: 10px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #0081b5;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    color: white !important;
 }
