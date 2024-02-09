@@ -59,6 +59,7 @@
 }
 
 
+
 /* hero bg img  */
 .background_img{
     background-image:url("../imgs/header-bg.jpg") ;
@@ -308,3 +309,10 @@ text-decoration:line-through;
 .breadcrumb-item+.breadcrumb-item::before {
     color: white !important;
 }
+
+@media screen and (min-width:0px)and (max-width:650px){
+    .hero_position{
+        position: relative;
+        top: -300px;
+    }
+    }
